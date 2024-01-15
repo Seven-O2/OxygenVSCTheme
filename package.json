@@ -1,0 +1,44 @@
+{
+	"name": "oxygen-theme",
+	"displayName": "Oxygen Theme",
+	"description": "Monokai inspired, vibrant theme",
+	"icon": "resources/logo/logo-128x128.png",
+	"version": "1.7.0",
+	"license": "MIT",
+	"publisher": "Seven-O2",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Oxygen Normal",
+				"uiTheme": "vs-dark",
+				"path": "./themes/normal.json"
+			},
+			{
+				"label": "Oxygen Transparent",
+				"uiTheme": "vs-dark",
+				"path": "./themes/transparent.json"
+			}
+		]
+	},
+	"author": {
+		"name": "Joel"
+	},
+	"engines": {
+		"vscode": "^1.21.0"
+	},
+	"keywords": [
+		"theme",
+		"monokai",
+		"night",
+		"dark",
+		"minimalistic",
+		"clean",
+		"vscode"
+	],
+	"categories": [
+		"Themes"
+	],
+	"__metadata": {
+		"id": "E3A560F1-2456-4E4A-AB95-8F4410A41825"
+	}
+}
